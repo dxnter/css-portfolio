@@ -1,0 +1,132 @@
+.headfoot {
+	background-color: rgb(231, 231, 231);
+	position: fixed;
+	width: 100%;
+	left: 0;
+	z-index: 100;
+}
+body {
+	background: radial-gradient(rgb(112, 90, 101), rgb(105, 84, 94), rgb(29, 12, 17));
+}
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#header {
+	top: 0;
+}
+#name {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	display: inline-block;
+	margin-left: 20px;
+}
+#motto {
+	text-align: right;
+	float: right;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.row, .row3 {
+	display: flex;
+}
+.column-header {
+	background: linear-gradient(rgb(171, 170, 175), rgb(135, 133, 147), rgb(171, 170, 175));
+	color: white;
+}
+#photo img {
+	width: 600px;
+	border: 7px solid rgb(231, 231, 231);
+	margin: 110px 0px 0px 25px;
+	position: relative;
+}
+#about {
+	width: 1000px;
+	padding: 20px;
+	background-color: rgb(231, 231, 231);
+	margin: 110px 25px 0px 40px;
+}
+#about p, a {
+	font-size: 24px;
+	margin-top: 40px;
+}
+#about h3 {
+	font-size: 30px;
+	margin-top: 0px;
+	margin: -20px !important;
+	padding: 20px !important;
+}
+#about a {
+	color: black;
+}
+.column {
+	width: 600px;
+	height: 800px;
+	background: linear-gradient(to right, white, rgb(219, 204, 218));
+	margin: 40px 30px 30px 30px;
+	position: relative;
+	padding-top: 20px;
+}
+.column .column-header {
+	margin-top: -20px !important;
+	padding: 20px !important;
+}
+.col-img {
+	max-width: 100%;
+	max-height: 100%;
+	background-size: 100%;
+	margin-top: -20px !important;
+}
+.column p {
+	padding: 10px 20px 20px 20px;
+	line-height: 200%;
+}
+#family {
+	line-height: 165%;
+}
+#five {
+	line-height: 140%;
+}
+#footer {
+	bottom: 0;
+	text-align: center;
+	position: static;
+}
+#footer a {
+	display: inline-block;
+	padding-bottom: 10px;
+	color: black;
+	font-style: italic;
+	font-size: 16px;
+}
+#footer p {
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+.tech-box {
+	padding: 0px 20px 20px 20px;
+	text-align: center;
+}
+.tech-box img {
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+}
+.button {
+	display: inline-block;
+	margin: 0 auto;
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 7px;
+	border: 1px solid black;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	position: relative;
+}
+.social-icon {
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+}
